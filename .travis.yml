@@ -10,8 +10,7 @@ r:
   - bioc-devel
   - bioc-release
 
-install:
-  - R -e 'devtools::install_deps(dep = T)'
+install: true
 
 script:
   - cd unit-testing && bash run_tests.sh
