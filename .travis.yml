@@ -13,5 +13,5 @@ r:
 install: true
 
 script:
-  - cd unit-testing && bash run_tests.sh
+  - cd unit-testing && bash install.sh && bash run_tests.sh
 
